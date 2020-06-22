@@ -214,30 +214,25 @@ a
         color: #000000;
 }
 
-@media screen and (max-width: 1200px)
-{
-    .loisirs
-    {
-        display:flex;
-        flex-direction: column;
-    }
 
-    formations i
-    {
-        display:none;
-    }
-
-
-    aside i
-    {
-        text-align: center;
-        margin: 1em;
-    }
-}
 
 
 @media screen and (max-width: 960px)
 {
+    .loisirs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    formations i {
+        display: none;
+    }
+
+
+    aside i {
+        text-align: center;
+        margin: 1em;
+    }
     .photo
     {
         display: none;
