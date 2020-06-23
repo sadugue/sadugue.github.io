@@ -41,14 +41,6 @@ p
     margin: 3em;
 }
 
-.contacts:nth-child(4)
-{
-    align-self: flex-end;
-}
-
-.loisirs {
-    align-self: flex-end;
-}
 
 .moi {
     margin: 3em;
@@ -58,6 +50,11 @@ p
 
     display: flex;
     justify-content: space-around;
+}
+
+.bas
+{
+    margin-top: 200px
 }
 
 .loisirs i
