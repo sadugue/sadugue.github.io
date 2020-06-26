@@ -63,9 +63,10 @@ p
     color: #000000;
 }
 
-img
-{
-    width: 70%;
+img {
+    width: 50%;
+    border: 1em #5DBF61 solid;
+    border-radius: 9000px;
 }
 
 i {
@@ -212,7 +213,11 @@ a
 }
 
 
-
+.loisirs i {
+    padding: 8px;
+    border: 1px #000000 solid;
+    border-radius: 9000px;
+}
 
 @media screen and (max-width: 900px)
 {
