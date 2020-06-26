@@ -220,9 +220,6 @@ a
 }
 
 
-
-}
-
 @media screen and (max-width: 900px) {
     .loisirs {
         display: flex;
@@ -272,3 +269,4 @@ a
     .datelieu {
         display: none;
     }
+}
