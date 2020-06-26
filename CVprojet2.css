@@ -330,11 +330,12 @@ a
         width: 100%;
     }
 
-    aside h3{
-        width: 75px;
-    }
+   aside h3 {
+       font-size: 75px;
+   }
 
     aside h2 {
-        width: 80px;
+        width: 1200px;
+        font-size: 80px;
     }
 }
