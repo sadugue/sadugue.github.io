@@ -170,7 +170,7 @@ header
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 5em;
-    width: 8em;
+    width: 12em;
 }
 
 
@@ -179,7 +179,6 @@ header
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 5em;
 }
 
 
@@ -222,6 +221,7 @@ a
  }
 
 .loisirs i {
+    font-size: 35px;
     padding: 8px;
     border: 1px #000000 solid;
     border-radius: 9000px;
