@@ -59,7 +59,7 @@ p
 
 .loisirs i
 {
-    font-size: 300%;
+    font-size: 100%;
     color: #000000;
 }
 
@@ -146,19 +146,19 @@ header
     margin: 0em;
 }
 
-.formation {
+.petit {
     display: flex;
     flex-direction: row;
 }
 
 
-.compétences {
+.petit {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.expériences {
+.petit {
     display: flex;
     flex-direction: row;
 }
@@ -184,24 +184,6 @@ header
 
 
 
-.SoftsSkills
-{
-    margin-right: 5em;
-}
-
-.HardsSkills
-{
-    margin-right: 5em;
-}
-
-
-li
-{
-    margin-left: 0em;
-    padding-left: 0em;
-    list-style: none;
-}
-
 ctct
 {
     margin-bottom: 3em;
@@ -210,8 +192,34 @@ ctct
 a
 {
         color: #000000;
+        text-decoration: none;
 }
 
+.recommandations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    .recommandations .qui {
+        /*  font-weight: bold;*/
+    }
+
+    .recommandations .ou {
+        /*  font-weight: bold;*/
+    }
+
+.recommandations h5 {
+  /*  font-weight: bold;*/
+    color: #000000;
+    padding: 0em;
+    margin: 0em;
+}
+
+.recommandations p {
+    padding: 0em;
+    margin: 0em;
+ }
 
 .loisirs i {
     padding: 8px;
@@ -226,7 +234,7 @@ a
         flex-direction: column;
     }
 
-    formations i {
+    .grand i {
         display: none;
     }
 
@@ -250,7 +258,7 @@ a
     }
 
 
-    .formation {
+    .petit {
         display: flex;
         flex-direction: column;
     }
@@ -271,24 +279,50 @@ a
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 90px;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 80px;
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 75px;
     }
 
     h4 {
-        font-size: 22px;
+        font-size: 70px;
     }
 
-    p {
-        font-size: 20px;
-        max-width: 95%;
+    h5 {
+        font-size: 65px;
     }
 
+    p,a {
+        font-size: 60px;
+        max-width: 90%;
+    }
+
+    .loisirs{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .loisirs i{
+        font-size: 500%;
+    }
+
+    .recommandations {
+        font-size: 32px;
+    }
+
+    .recommandations {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .recom{
+    padding: 30px;
+    }
 }
