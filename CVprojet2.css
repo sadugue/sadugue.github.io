@@ -329,4 +329,12 @@ a
     aside{
         width: 100%;
     }
+
+    aside h3{
+        width: 75px;
+    }
+
+    aside h2 {
+        width: 80px;
+    }
 }
