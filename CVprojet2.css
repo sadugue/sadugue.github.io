@@ -78,7 +78,7 @@ section
 {
     padding: 5% 0% 5% 5%;
     margin: 0em;
-    width: 60%;
+    width: 100%;
 }
 
 strong {
@@ -220,7 +220,7 @@ a
 }
 
 
-@media screen and (handheld) {
+@media screen and (max-device-width: 1200px) {
     .loisirs {
         display: flex;
         flex-direction: column;
@@ -269,4 +269,25 @@ a
     .datelieu {
         display: none;
     }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
 }
