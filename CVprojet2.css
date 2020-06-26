@@ -219,8 +219,11 @@ a
     border-radius: 9000px;
 }
 
-@media screen and (max-width: 900px)
-{
+
+
+}
+
+@media screen and (max-width: 900px) {
     .loisirs {
         display: flex;
         flex-direction: column;
@@ -235,20 +238,18 @@ a
         text-align: center;
         margin: 1em;
     }
-    .photo
-    {
+
+    .photo {
         display: none;
     }
 
-    body
-    {
+    body {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    aside
-    {
-        width:100%;
+    aside {
+        width: 100%;
     }
 
 
@@ -268,9 +269,6 @@ a
         flex-direction: column;
     }
 
-    .datelieu
-    {
-        display:none;
+    .datelieu {
+        display: none;
     }
-
-}
