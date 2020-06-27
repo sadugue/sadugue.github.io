@@ -228,7 +228,7 @@ a
 }
 
 
-@media screen and (max-device-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .loisirs {
         display: flex;
         flex-direction: column;
