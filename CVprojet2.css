@@ -146,10 +146,6 @@ header
     margin: 0em;
 }
 
-.petit {
-    display: flex;
-    flex-direction: row;
-}
 
 
 .petit {
@@ -158,10 +154,6 @@ header
     justify-content: space-around;
 }
 
-.petit {
-    display: flex;
-    flex-direction: row;
-}
 
 .petit h4, .petit h5{
     margin-bottom: 6px;
@@ -211,13 +203,6 @@ a
     justify-content: space-around;
 }
 
-    .recommandations .qui {
-        /*  font-weight: bold;*/
-    }
-
-    .recommandations .ou {
-        /*  font-weight: bold;*/
-    }
 
 .recommandations h5 {
     font-size: 15px;
