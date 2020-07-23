@@ -239,7 +239,11 @@ a
 
 
 
-@media screen and (max-width: 1200px) {
+
+
+
+
+@media screen and (max-width: 800px) {
     .loisirs {
         display: flex;
         flex-direction: column;
