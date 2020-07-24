@@ -221,7 +221,7 @@ a
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 6px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     padding: 12px;
     border: 1px #000000 solid;
     border-radius: 9000px;
@@ -367,5 +367,9 @@ a
     aside h2 {
         width: 100%;
         font-size: 80px;
+    }
+
+    .bas {
+        margin-top: 2em;
     }
 }
