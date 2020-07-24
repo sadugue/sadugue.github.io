@@ -244,6 +244,12 @@ a
 
 
 @media screen and (max-width: 800px) {
+    section {
+        padding: 3%;
+        margin: 0em;
+        width: 100%;
+    }
+
     .loisirs {
         display: flex;
         flex-direction: column;
