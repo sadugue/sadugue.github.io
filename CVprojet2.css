@@ -370,6 +370,11 @@ a
     }
 
     .bas {
-        margin-top: 2em;
+        margin-top: 0em;
     }
+
+    .moi {
+        margin: 1em;
+    }
+
 }
