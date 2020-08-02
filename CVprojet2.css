@@ -307,19 +307,14 @@ a
     }
 
     h4 {
-        font-size: 73px;
-    }
-
-    h5 {
         font-size: 70px;
     }
 
-    p {
-        font-size: 60px;
-        max-width: 90%;
+    h5 {
+        font-size: 65px;
     }
 
-    a {
+    p,a {
         font-size: 60px;
         max-width: 90%;
     }
@@ -334,11 +329,7 @@ a
     }
 
     .recommandations {
-        font-size: 60px;
-    }
-
-    .recommandations h5{
-        font-size: 60px;
+        font-size: 32px;
     }
 
     .recommandations {
