@@ -244,6 +244,9 @@ a
 
 
 @media screen and (max-width: 1200px) {
+    section{
+        width:100%;
+    }
 
     .loisirs {
         display: flex;
